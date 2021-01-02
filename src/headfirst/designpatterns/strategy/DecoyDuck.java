@@ -3,9 +3,12 @@ package headfirst.designpatterns.strategy;
 import headfirst.designpatterns.strategy.behavior.fly.FlyNoWay;
 import headfirst.designpatterns.strategy.behavior.quack.Squeak;
 
-public class ModelDuck extends Duck {
+/**
+ * Model Duck class.
+ */
+public class DecoyDuck extends Duck {
 
-  public ModelDuck() {
+  public DecoyDuck() {
     flyBehavior = new FlyNoWay();
     quackBehavior = new Squeak();
     setFlyBehavior(flyBehavior);

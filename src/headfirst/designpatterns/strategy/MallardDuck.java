@@ -5,6 +5,9 @@ import headfirst.designpatterns.strategy.behavior.fly.FlyWithWings;
 import headfirst.designpatterns.strategy.behavior.quack.Quack;
 import headfirst.designpatterns.strategy.behavior.QuackBehavior;
 
+/**
+ * Mallard Duck class.
+ */
 public class MallardDuck extends Duck {
 
   public MallardDuck() {

@@ -5,6 +5,9 @@ import headfirst.designpatterns.strategy.behavior.fly.FlyNoWay;
 import headfirst.designpatterns.strategy.behavior.quack.MuteQuack;
 import headfirst.designpatterns.strategy.behavior.QuackBehavior;
 
+/**
+ * Rubber Duck class.
+ */
 public class RubberDuck extends Duck {
 
   public RubberDuck() {
