@@ -1,5 +1,10 @@
 package headfirst.designpatterns.strategy;
 
+import headfirst.designpatterns.strategy.behavior.FlyBehavior;
+import headfirst.designpatterns.strategy.behavior.fly.FlyNoWay;
+import headfirst.designpatterns.strategy.behavior.quack.MuteQuack;
+import headfirst.designpatterns.strategy.behavior.QuackBehavior;
+
 public class RubberDuck extends Duck {
 
   public RubberDuck() {

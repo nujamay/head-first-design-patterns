@@ -1,4 +1,6 @@
-package headfirst.designpatterns.strategy;
+package headfirst.designpatterns.strategy.behavior.quack;
+
+import headfirst.designpatterns.strategy.behavior.QuackBehavior;
 
 public class MuteQuack implements QuackBehavior {
 

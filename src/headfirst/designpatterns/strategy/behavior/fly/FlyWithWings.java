@@ -1,4 +1,6 @@
-package headfirst.designpatterns.strategy;
+package headfirst.designpatterns.strategy.behavior.fly;
+
+import headfirst.designpatterns.strategy.behavior.FlyBehavior;
 
 public class FlyWithWings implements FlyBehavior {
 

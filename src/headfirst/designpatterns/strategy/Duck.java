@@ -1,5 +1,8 @@
 package headfirst.designpatterns.strategy;
 
+import headfirst.designpatterns.strategy.behavior.FlyBehavior;
+import headfirst.designpatterns.strategy.behavior.QuackBehavior;
+
 public abstract class Duck {
 
   // for behavior interface.

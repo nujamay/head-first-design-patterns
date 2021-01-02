@@ -1,5 +1,7 @@
 package headfirst.designpatterns.strategy;
 
+import headfirst.designpatterns.strategy.behavior.fly.FlyRocketPowered;
+
 public class DuckSimulator {
 
   public static void main(String[] args) {
