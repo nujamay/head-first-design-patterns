@@ -1,7 +1,7 @@
-package headfirst.designpatterns.observer.subject;
+package headfirst.designpatterns.observer.weather.subject;
 
-import headfirst.designpatterns.observer.observer.Observer;
-import headfirst.designpatterns.observer.subject.Subject;
+import headfirst.designpatterns.observer.weather.observer.Observer;
+import headfirst.designpatterns.observer.weather.subject.Subject;
 import java.util.ArrayList;
 
 /**

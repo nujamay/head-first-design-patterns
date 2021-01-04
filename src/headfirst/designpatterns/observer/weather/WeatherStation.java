@@ -1,9 +1,9 @@
-package headfirst.designpatterns.observer;
+package headfirst.designpatterns.observer.weather;
 
-import headfirst.designpatterns.observer.observer.CurrentConditionDisplay;
-import headfirst.designpatterns.observer.observer.ForecastDisplay;
-import headfirst.designpatterns.observer.observer.StatisticsDisplay;
-import headfirst.designpatterns.observer.subject.WeatherData;
+import headfirst.designpatterns.observer.weather.observer.CurrentConditionDisplay;
+import headfirst.designpatterns.observer.weather.observer.ForecastDisplay;
+import headfirst.designpatterns.observer.weather.observer.StatisticsDisplay;
+import headfirst.designpatterns.observer.weather.subject.WeatherData;
 
 /**
  * Weather Station Class (Client Code).

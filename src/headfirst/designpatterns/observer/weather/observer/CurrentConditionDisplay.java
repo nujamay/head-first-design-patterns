@@ -1,6 +1,6 @@
-package headfirst.designpatterns.observer.observer;
+package headfirst.designpatterns.observer.weather.observer;
 
-import headfirst.designpatterns.observer.subject.WeatherData;
+import headfirst.designpatterns.observer.weather.subject.WeatherData;
 
 /**
  * Current condition display class.

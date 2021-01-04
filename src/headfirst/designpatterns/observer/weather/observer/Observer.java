@@ -1,4 +1,4 @@
-package headfirst.designpatterns.observer.observer;
+package headfirst.designpatterns.observer.weather.observer;
 
 /**
  * Observer interface.

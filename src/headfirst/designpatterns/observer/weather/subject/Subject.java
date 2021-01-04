@@ -1,6 +1,6 @@
-package headfirst.designpatterns.observer.subject;
+package headfirst.designpatterns.observer.weather.subject;
 
-import headfirst.designpatterns.observer.observer.Observer;
+import headfirst.designpatterns.observer.weather.observer.Observer;
 
 /**
  * Subject interface.
