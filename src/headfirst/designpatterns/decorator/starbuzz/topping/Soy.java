@@ -8,7 +8,6 @@ import headfirst.designpatterns.decorator.starbuzz.CondimentDecorator;
  */
 public class Soy extends CondimentDecorator {
 
-  Beverage beverage;
   private final double cost = .15;
 
   public Soy(Beverage beverage) {
@@ -17,11 +16,11 @@ public class Soy extends CondimentDecorator {
 
   @Override
   public double cost() {
-    return cost + this.beverage.cost();
+    return cost + beverage.cost();
   }
 
   @Override
   public String getDescription() {
-    return this.beverage.getDescription() + ", Soy";
+    return beverage.getDescription() + ", Soy";
   }
 }

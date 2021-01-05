@@ -8,7 +8,6 @@ import headfirst.designpatterns.decorator.starbuzz.CondimentDecorator;
  */
 public class Whip extends CondimentDecorator {
 
-  Beverage beverage;
   private final double cost = .10;
 
   public Whip(Beverage beverage) {
@@ -17,11 +16,11 @@ public class Whip extends CondimentDecorator {
 
   @Override
   public double cost() {
-    return cost + this.beverage.cost();
+    return cost + beverage.cost();
   }
 
   @Override
   public String getDescription() {
-    return this.beverage.getDescription() + ", Whip";
+    return beverage.getDescription() + ", Whip";
   }
 }
