@@ -5,11 +5,11 @@ package headfirst.designpatterns.decorator.starbuzz;
  */
 public abstract class Beverage {
 
-  protected Beverage bevarage;
+  Beverage bevarage;
   String description = "Unknown drink.";
 
   public String getDescription() {
-    return description;
+    return this.description;
   }
 
   public void setDescription(String description) {

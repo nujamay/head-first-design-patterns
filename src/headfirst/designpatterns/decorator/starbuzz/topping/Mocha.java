@@ -8,7 +8,6 @@ import headfirst.designpatterns.decorator.starbuzz.CondimentDecorator;
  */
 public class Mocha extends CondimentDecorator {
 
-  Beverage beverage;
   private final double cost = .20;
 
   public Mocha(Beverage beverage) {

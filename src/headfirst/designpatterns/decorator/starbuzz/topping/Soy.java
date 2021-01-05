@@ -17,11 +17,11 @@ public class Soy extends CondimentDecorator {
 
   @Override
   public double cost() {
-    return cost + beverage.cost();
+    return cost + this.beverage.cost();
   }
 
   @Override
   public String getDescription() {
-    return beverage.getDescription() + ", Soy";
+    return this.beverage.getDescription() + ", Soy";
   }
 }
